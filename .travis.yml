@@ -1,6 +1,12 @@
 language: python
 python: "3.5"
-# command to install dependencies
-#install: "pip install -r requirements.txt"
-# command to run tests
+
+install:
+  - pip install requests
+  - pip install bottle
+
+before_script:
+  - python basic_bottle.py &
+  - sleep 2
+
 script: nosetests
