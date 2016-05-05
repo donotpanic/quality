@@ -1,7 +1,7 @@
 ![Build Status](https://travis-ci.org/donotpanic/quality.svg?branch=master)
 
-### Writing Test Cases
-Showcasing techniques of writing Test Cases and CI to run tests at every commit.
+### Writing Automated Test Cases
+Showcasing techniques of writing Automated Test Cases and CI to run tests at every commit.
 
 #### Current Project
 Created a basic RESTful webservice in Python using Bottle.
